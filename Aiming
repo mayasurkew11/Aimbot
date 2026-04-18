@@ -1,0 +1,6 @@
+local player = game.Players.LocalPlayer
+local mouse = player:GetMouse()
+
+mouse.Button1Down:Connect(function()
+	print("You clicked! Aim system would go here")
+end)
